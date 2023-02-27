@@ -1,0 +1,279 @@
+:root {
+	--blue-color: #0075ff;
+	--blue-alt-color: #0d69d5;
+	--orange-color: #f59e0b;
+	--green-color: #22c55e;
+	--red-color: #f44336;
+	--grey-color: #888;
+}
+/* Start margin */
+.m-10 {
+    margin: 10px;
+}
+.m-20 {
+    margin: 20px;
+}
+.mt-25 {
+    margin-top: 25px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mt-5 {
+    margin-top: 5px;
+}
+.mt-15 {
+    margin-top: 15px;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+.mt-8 {
+    margin-top: 8px;
+}
+.mr-5 {
+    margin-right: 5px;
+}
+.mr-10 {
+    margin-right: 10px;
+}
+.mr-15 {
+    margin-right: 15px;
+}
+.mr-20 {
+    margin-right: 20px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.mb-5 {
+    margin-bottom: 5px;
+}
+.ml-5 {
+    margin-left: 5px;
+}
+.ml-10 {
+    margin-left: 10px;
+}
+.ml-20 {
+    margin-left: 20px;
+}
+/* End margin */
+.c-transpect {
+    color: transparent;
+}
+/* Start padding */
+.p-25 {
+    padding: 25px;
+}
+.p-5 {
+    padding: 5px;
+}
+.p-8 {
+    padding: 8px;
+}
+.p-10 {
+    padding: 10px;
+}
+.p-20 {
+    padding: 20px;
+}
+.pt-5 {
+    padding-top: 5px;
+}
+.pt-10 {
+    padding-top: 10px;
+}
+.pt-20 {
+    padding-top: 20px;
+}
+.pr-10 {
+    padding-right: 10px;
+}
+.pb-10 {
+    padding-bottom: 10px;
+}
+.pb-15 {
+    padding-bottom: 15px;
+}
+.pb-5 {
+    padding-bottom: 5px;
+}
+.pb-20 {
+    padding-bottom: 20px;
+}
+.pl-10 {
+    padding-left: 10px;
+}
+.pl-20 {
+    padding-left: 20px;
+}
+/* End padding */
+/* Start display */
+.d-flex {
+    display: flex;
+}
+.d-grid {
+    display: grid;
+}
+.d-block {
+    display: block;
+}
+.gap-20 {
+    gap: 20px;
+}
+/* End display */
+/* Start colors */
+.bg-gray {
+    background-color: #f6f6f6;
+}
+.bg-white {
+    background-color: white;
+}
+.bg-blue {
+    background-color: var(--blue-color);
+}
+.bg-red {
+    background-color: var(--red-color);
+}
+.bg-orange {
+    background-color: var(--orange-color);
+}
+.bg-green {
+    background-color: var(--green-color);
+}
+.f {
+    color: var(--blue-color);
+}
+.c-black {
+    color: black;
+}
+.c-white {
+    color: white;
+}
+.c-gray {
+    color: #888;
+}
+.c-orange {
+    color: var(--orange-color);
+}
+.c-green {
+    color: var(--green-color);
+}
+.c-red {
+    color: var(--red-color);
+}
+
+/* End colors */
+/* Start fonts */
+.fs-14 {
+    font-size: 14px;
+}
+.fs-13 {
+    font-size: 13px;
+}
+.fs-12 {
+    font-size: 12px;
+}
+.fs-11 {
+    font-size: 11px;
+}
+.f-bold {
+    font-weight: bold;
+}
+.f-normal {
+    font-weight: normal;
+}
+/* End fonts */
+/* Start borders */
+.br-6 {
+    border-radius: 6px;
+}
+.br-10 {
+    border-radius: 10px;
+}
+.br-half {
+    border-radius: 50%;
+}
+/* End borders */
+/* Start widths */
+.full-width {
+    width: 100%;
+}
+.fit-width {
+    width: fit-content;
+}
+.flex-1 {
+    flex: 1;
+}
+/* End widths */
+/* Start componant */
+.space-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.justify-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.align-items {
+    display: flex;
+    align-items: center;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+/* End componant */
+.position-relative {
+    position: relative
+}
+.position-ab {
+    position: absolute;
+}
+.bac-green::after, 
+.bac-green::before {
+    background-color: var(--green-color);
+}
+.bac-red::after, 
+.bac-red::before {
+    background-color: var(--red-color);
+}
+.bac-blue::after, 
+.bac-blue::before {
+    background-color: var(--blue-color);
+}
+.bac-orange::after, 
+.bac-orange::before {
+    background-color: var(--orange-color);
+}
+@media (max-width:767px) {
+    .phone-column {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+.bb-gray {
+    border-bottom: 1px solid #eee;
+}
+.bb-none {
+    border-bottom: none;
+}
+/* after bg colors for the bars */
+.after-bg-red::after {
+    background-color: var(--red-color);
+} 
+.after-bg-blue::after {
+    background-color: var(--blue-color);
+} 
+.after-bg-green::after {
+    background-color: var(--green-color);
+} 
